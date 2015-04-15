@@ -1,0 +1,73 @@
+function initMap() {
+
+    // Centered in London
+    var map = SMC.map('map');
+    map.setView([37.378736, -6.000823], 15);
+    //map.setView([53.4666677, -2.2333333], 9);
+
+
+
+    var base = SMC.tileLayer({
+        url: 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+        maxZoom: 18
+    }).addTo(map);
+
+    var satelite = SMC.tileLayer({
+        url: "http://maps.opengeo.org/geowebcache/service/wms",
+        layers: "bluemarble",
+        format: 'image/png',
+        transparent: true,
+        attribution: "Weather data © 2012 IEM Nexrad"
+    });
+
+
+    map.loadLayers([{
+        type: "URLMarkerLayer",
+        params: [{
+            url: "http://172.28.99.70:8081/sc.eco/rest/event/geojsonp",
+            dataType: "jsonp"
+        }]
+      },{
+        id: "realTimeLayer",
+        type: "SMC.layers.markers.AtmosphereRTMarkerLayer",
+        params: [{
+            url: "atmosphere/map",
+            topic: "",
+            stylesheetURL: "styles/style.markercss"
+        }],
+        listeners: {
+            socketOpened: function(data) {
+//                console.debug("RealTime Socket opened");
+//
+//                window.socket = data.target.socket;
+//                map.on("click", function(e) {
+//                    socket.push(JSON.stringify({
+//                        author: "web browser",
+//                        action: "ADD",
+//                        latitude: e.latlng.lat,
+//                        longitude: e.latlng.lng
+//                    }));
+//                });
+            }
+        }
+    }]);
+
+    window._markersLayer = map.loadedLayers.realTimeLayer;
+
+    var baseLayer = {
+        "Street Map": base,
+        "Satelite": satelite
+    };
+
+
+    L.control.layers(baseLayer, null, {
+        collapsed: false
+    }).addTo(map);
+
+};
+
+
+L.Icon.Default.imagePath = "dist/images";
+
+window.onload = initMap;

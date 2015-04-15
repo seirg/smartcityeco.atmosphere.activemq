@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<junction1.xml>
+  <stopline Id="0" Nl="3" Xf="87.0" Xi="82.0" Yf="275.0" Yi="326.0">
+    <Mov Id="0" Type="4"/>
+    <Mov Id="1" Type="2"/>
+    <Mov Id="2" Type="2"/>
+    <Loop Lane="0" Sz="17.081503" Ux="0.9952285" Uy="0.097571425" X="31.833332" Y="312.5"/>
+    <Loop Lane="1" Sz="17.081503" Ux="0.9952285" Uy="0.097571425" X="34.333332" Y="287.0"/>
+  </stopline>
+  <stopline Id="1" Nl="2" Xf="155.32336" Xi="159.0" Yf="270.9646" Yi="237.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="2" Nl="1" Xf="207.20534" Xi="191.0" Yf="397.40045" Yi="392.0">
+    <Mov Id="0" Type="2"/>
+  </stopline>
+  <stopline Id="3" Nl="2" Xf="208.77129" Xi="230.0" Yf="179.76663" Yi="153.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="4" Nl="2" Xf="371.61374" Xi="380.0" Yf="289.88232" Yi="323.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="5" Nl="2" Xf="713.3488" Xi="716.0" Yf="365.06" Yi="331.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+    <Loop Lane="0" Sz="17.081503" Ux="-0.99698424" Uy="-0.07760391" X="765.7644" Y="352.0068"/>
+  </stopline>
+  <stopline Id="6" Nl="1" Xf="645.7882" Xi="644.0" Yf="364.01236" Yi="381.0">
+    <Mov Id="0" Type="2"/>
+  </stopline>
+  <stopline Id="7" Nl="2" Xf="629.9503" Xi="660.0" Yf="537.25195" Yi="521.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+    <Loop Lane="0" Sz="17.081503" Ux="-0.4757182" Uy="-0.8795977" X="669.35315" Y="574.2005"/>
+  </stopline>
+  <stopline Id="8" Nl="2" Xf="542.8616" Xi="514.0" Yf="457.72104" Yi="476.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="9" Nl="2" Xf="598.32135" Xi="622.0" Yf="177.37418" Yi="202.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="10" Nl="1" Xf="643.5449" Xi="631.0" Yf="134.59323" Yi="123.0">
+    <Mov Id="0" Type="2"/>
+    <Loop Lane="0" Sz="17.081503" Ux="-0.6787005" Uy="0.7344152" X="672.0521" Y="91.16187"/>
+  </stopline>
+  <stopline Id="11" Nl="1" Xf="497.853" Xi="497.0" Yf="344.93982" Yi="362.0">
+    <Mov Id="0" Type="2"/>
+  </stopline>
+  <movement Id="0" endCtrlpX="-58.798096" endCtrlpY="6.593506" endMov="0" endSL="4" startCtrlpX="146.0" startCtrlpY="5.0" startMov="1" startSL="0"/>
+  <movement Id="1" endCtrlpX="-99.42737" endCtrlpY="-6.452057" endMov="0" endSL="11" startCtrlpX="207.3474" startCtrlpY="24.39381" startMov="1" startSL="0"/>
+  <movement Id="2" endCtrlpX="-61.460938" endCtrlpY="-98.84143" endMov="0" endSL="8" startCtrlpX="365.0" startCtrlpY="61.0" startMov="1" startSL="0"/>
+  <movement Id="3" endCtrlpX="19.298477" endCtrlpY="-61.733185" endMov="0" endSL="2" startCtrlpX="88.0" startCtrlpY="6.5" startMov="0" startSL="0"/>
+  <movement Id="4" endCtrlpX="-73.704185" endCtrlpY="-7.7584047" endMov="0" endSL="6" startCtrlpX="74.38086" startCtrlpY="8.838409" startMov="0" startSL="11"/>
+  <movement Id="5" endCtrlpX="415.84216" endCtrlpY="27.982178" endMov="0" endSL="1" startCtrlpX="-448.5404" startCtrlpY="-78.408875" startMov="0" startSL="5"/>
+  <movement Id="6" endCtrlpX="94.636566" endCtrlpY="91.588684" endMov="0" endSL="3" startCtrlpX="-169.5404" startCtrlpY="-24.408875" startMov="0" startSL="5"/>
+  <movement Id="7" endCtrlpX="126.636566" endCtrlpY="98.588684" endMov="0" endSL="3" startCtrlpX="-145.64954" startCtrlpY="174.49052" startMov="0" startSL="10"/>
+  <movement Id="8" endCtrlpX="-71.135864" endCtrlpY="71.338684" endMov="0" endSL="9" startCtrlpX="123.19318" startCtrlpY="-17.441162" startMov="0" startSL="4"/>
+  <movement Id="9" endCtrlpX="193.84216" endCtrlpY="15.982178" endMov="0" endSL="1" startCtrlpX="-133.64954" startCtrlpY="161.49052" startMov="0" startSL="10"/>
+  <movement Id="10" endCtrlpX="-66.895996" endCtrlpY="0.5115967" endMov="0" endSL="6" startCtrlpX="-48.389587" startCtrlpY="-101.65625" startMov="0" startSL="7"/>
+  <movement Id="11" endCtrlpX="-69.135864" endCtrlpY="122.338684" endMov="0" endSL="9" startCtrlpX="-54.389587" startCtrlpY="-104.65625" startMov="0" startSL="7"/>
+  <movement Id="12" endCtrlpX="207.63657" endCtrlpY="167.58868" endMov="0" endSL="3" startCtrlpX="-134.38959" startCtrlpY="-288.65625" startMov="0" startSL="7"/>
+  <movement Id="13" endCtrlpX="290.84216" endCtrlpY="8.982178" endMov="0" endSL="1" startCtrlpX="-106.38959" startCtrlpY="-227.65625" startMov="0" startSL="7"/>
+  <movement Id="14" endCtrlpX="0.0" endCtrlpY="0.0" endMov="3" endSL="6" startCtrlpX="0.0" startCtrlpY="0.0" startMov="0" startSL="6"/>
+  <movement Id="15" endCtrlpX="0.0" endCtrlpY="0.0" endMov="3" endSL="3" startCtrlpX="0.0" startCtrlpY="0.0" startMov="0" startSL="3"/>
+  <movement Id="16" endCtrlpX="0.0" endCtrlpY="0.0" endMov="3" endSL="1" startCtrlpX="0.0" startCtrlpY="0.0" startMov="0" startSL="1"/>
+  <movement Id="17" endCtrlpX="0.0" endCtrlpY="0.0" endMov="3" endSL="2" startCtrlpX="0.0" startCtrlpY="0.0" startMov="0" startSL="2"/>
+  <movement Id="18" endCtrlpX="0.0" endCtrlpY="0.0" endMov="3" endSL="8" startCtrlpX="0.0" startCtrlpY="0.0" startMov="0" startSL="8"/>
+  <movement Id="19" endCtrlpX="0.0" endCtrlpY="0.0" endMov="3" endSL="9" startCtrlpX="0.0" startCtrlpY="0.0" startMov="0" startSL="9"/>
+  <phase IdPH="0" Time="30000">
+    <Mov Idm="0" Type="1"/>
+    <Mov Idm="1" Type="1"/>
+    <Mov Idm="2" Type="1"/>
+    <Mov Idm="3" Type="1"/>
+    <Mov Idm="4" Type="1"/>
+    <Mov Idm="5" Type="1"/>
+    <Mov Idm="6" Type="1"/>
+    <Mov Idm="7" Type="2"/>
+    <Mov Idm="14" Type="1"/>
+    <Mov Idm="15" Type="1"/>
+    <Mov Idm="16" Type="1"/>
+    <Mov Idm="17" Type="1"/>
+    <Mov Idm="18" Type="1"/>
+    <Mov Idm="9" Type="2"/>
+  </phase>
+  <phase IdPH="1" Time="30000">
+    <Mov Idm="0" Type="1"/>
+    <Mov Idm="1" Type="1"/>
+    <Mov Idm="2" Type="1"/>
+    <Mov Idm="8" Type="1"/>
+    <Mov Idm="9" Type="1"/>
+    <Mov Idm="7" Type="1"/>
+    <Mov Idm="4" Type="1"/>
+    <Mov Idm="15" Type="1"/>
+    <Mov Idm="16" Type="1"/>
+    <Mov Idm="19" Type="1"/>
+    <Mov Idm="14" Type="1"/>
+    <Mov Idm="18" Type="1"/>
+  </phase>
+  <phase IdPH="2" Time="30000">
+    <Mov Idm="10" Type="1"/>
+    <Mov Idm="11" Type="1"/>
+    <Mov Idm="12" Type="1"/>
+    <Mov Idm="13" Type="1"/>
+    <Mov Idm="7" Type="2"/>
+    <Mov Idm="3" Type="1"/>
+    <Mov Idm="15" Type="1"/>
+    <Mov Idm="16" Type="1"/>
+    <Mov Idm="17" Type="1"/>
+    <Mov Idm="14" Type="1"/>
+    <Mov Idm="19" Type="1"/>
+    <Mov Idm="9" Type="2"/>
+  </phase>
+</junction1.xml>

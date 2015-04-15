@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Arrows (Symbols)</title>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="curved.line-0.0.2.js"></script>
+  <!--  <script src="http://d3js.org/d3.v3.min.js"></script> -->
+    <script src="d3.v3.min.js"></script> 
+    <script src="data.js"></script>
+    <script src="chord.js"></script>
+    <script src="arrows.js"></script>
+    <script src="matrix.js"></script>
+    <link rel="stylesheet" type="text/css" href="map.css">
+  </head>
+  <body>
+        <div id="wrapper">
+           <div id="map-canvas">   
+             <script>
+                initialize_map();
+             </script>
+           </div> 
+           <div id="chord-canvas"> 
+               <script>
+                   print_chord();
+               </script>
+           </div>
+           <div id="matrix-canvas"> 
+               <script>
+                   print_matrix();
+               </script>
+           </div>
+        </div> 
+  </body>
+</html>
+
+

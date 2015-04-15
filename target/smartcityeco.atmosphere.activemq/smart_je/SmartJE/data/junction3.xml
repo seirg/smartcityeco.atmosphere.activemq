@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<junction3.xml>
+  <stopline Id="0" Nl="2" Xf="139.0" Xi="126.0" Yf="276.0" Yi="346.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="1" Nl="2" Xf="313.34842" Xi="246.0" Yf="94.9091" Yi="118.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="2" Nl="2" Xf="477.0651" Xi="543.0" Yf="453.86237" Yi="427.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="3" Nl="2" Xf="597.06915" Xi="549.0" Yf="241.52005" Yi="189.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="4" Nl="2" Xf="417.85522" Xi="351.0" Yf="404.5178" Yi="429.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+  <stopline Id="5" Nl="1" Xf="241.29196" Xi="206.0" Yf="456.6612" Yi="452.0">
+    <Mov Id="0" Type="2"/>
+  </stopline>
+  <stopline Id="6" Nl="2" Xf="357.82843" Xi="424.0" Yf="132.274" Yi="106.0">
+    <Mov Id="0" Type="2"/>
+    <Mov Id="1" Type="2"/>
+  </stopline>
+</junction3.xml>

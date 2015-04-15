@@ -1,0 +1,23 @@
+* {
+    popUpOffsetTop:-10;
+    markerHeight: 32;
+    markerWidth: 32;
+    anchorLeft: 16;
+    anchorTop: 16;
+    
+}
+
+[code=emergency] {
+    iconUrl: "http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Status-dialog-warning-icon.png";
+    
+}
+
+[code=roadwork] {
+    iconUrl: "http://icons.iconarchive.com/icons/icons8/windows-8/32/Transport-Road-Closure-icon.png";
+    
+}
+
+
+[code=betis] {
+    iconUrl: "http://icons.iconarchive.com/icons/giannis-zographos/spanish-football-club/256/Real-Betis-icon.png";
+}
