@@ -77,8 +77,9 @@ function initMap() {
       {
     	  id: "eventMarkerLayer",
     	  type: "URLMarkerLayer",
-    	  params: [{    		  
-    		  url: "http://172.28.99.70:8081/sc.eco/rest/event/geojsonp",
+    	  params: [{    	
+    		  //url: "http://172.28.99.70:8081/sc.eco/rest/event/geojsonp",
+    		  url: "http://195.77.82.75:8888/rest/event/geojsonp",
     		  dataType: "jsonp"
     	  }]
       },{
@@ -108,8 +109,8 @@ function initMap() {
         id:"trafficLiveLayer",
         type:"SMC.layers.WMSLayer",
         params: [{
-        	url: "http://172.28.99.44:8080/geoserver/icm/wms",
-            //url: "http://195.77.82.75:8888/geoserver/icm/wms",
+        	//url: "http://172.28.99.44:8080/geoserver/icm/wms",
+            url: "http://195.77.82.75:8888/geoserver/icm/wms",
             layers:"icm:oip_link"
         }]
          
@@ -117,8 +118,8 @@ function initMap() {
         id:"trafficHistoryLayer",
         type:"SMC.layers.geometry.SolrGeometryHistoryLayer",
         params:[{
-        	serverURL: "http://172.28.99.70:8983/solr/traffic/select",
-            //serverURL: "http://195.77.82.75:8888/solr/traffic/select",
+        	//serverURL: "http://172.28.99.70:8983/solr/traffic/select",
+            serverURL: "http://195.77.82.75:8888/solr/traffic/select",
             timeField:'time',
             label: "Histórico Tráfico",
             time: 1000,
