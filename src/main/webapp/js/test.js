@@ -78,6 +78,7 @@ function initMap() {
             id: "eventMarkerLayer",
             type: "URLMarkerLayer",
             params: [{
+                    label: "Primera capa",
                     //url: "http://172.28.99.70:8081/sc.eco/rest/event/geojsonp",
                     url: "http://195.77.82.75:8888/rest/event/geojsonp",
                     dataType: "jsonp"
@@ -86,6 +87,7 @@ function initMap() {
             id: "realTimeLayer",
             type: "SMC.layers.markers.AtmosphereRTMarkerLayer",
             params: [{
+                    label: "Segunda capa",
                     url: "atmosphere/map",
                     topic: "",
                     stylesheetURL: "styles/style.markercss"
@@ -109,6 +111,7 @@ function initMap() {
             id: "trafficLiveLayer",
             type: "SMC.layers.WMSLayer",
             params: [{
+                    label: "Tercera capa",
                     //url: "http://172.28.99.44:8080/geoserver/icm/wms",
                     url: "http://195.77.82.75:8888/geoserver/icm/wms",
                     layers: "icm:oip_link"
