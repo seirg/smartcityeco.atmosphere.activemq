@@ -27,7 +27,7 @@ function initMap() {
     };
 
 
-    var leyenda = SMC.layerTreeControl(baseLayer, {
+    SMC.layerTreeControl(baseLayer, {
         collapsed: false
     }).addTo(map);
 
@@ -77,8 +77,8 @@ function initMap() {
         {
             id: "eventMarkerLayer",
             type: "URLMarkerLayer",
-            label: "Eventos",
             params: [{
+                    label: "Eventos",
                     url: "http://172.28.99.70:8081/sc.eco/rest/event/geojsonp",
                     //url: "http://195.77.82.75:8888/rest/event/geojsonp",
                     dataType: "jsonp"
@@ -86,8 +86,8 @@ function initMap() {
         }, {
             id: "realTimeLayer",
             type: "SMC.layers.markers.AtmosphereRTMarkerLayer",
-            label: "Eventos Atmosphere",
             params: [{
+                    label: "Eventos Atmosphere",
                     url: "atmosphere/map",
                     topic: "",
                     stylesheetURL: "styles/style.markercss"
@@ -111,8 +111,8 @@ function initMap() {
             id: "trafficLiveLayer",
             type: "SMC.layers.WMSLayer",
             //Esta capa teóricamente cargaría el tiempo real y no los links
-            label: "Capa GeoServer",
             params: [{
+                    label: "Capa GeoServer",
                     url: "http://172.28.99.44:8080/geoserver/icm/wms",
                     //url: "http://195.77.82.75:8888/geoserver/icm/wms",
                     layers: "icm:oip_link"
@@ -122,8 +122,8 @@ function initMap() {
             id: "trafficHistoryLayer",
             type: "SMC.layers.geometry.SolrGeometryHistoryLayer",
             params: [{
-                    serverURL: "http://172.28.99.70:8983/solr/traffic/select",
-                    //serverURL: "http://195.77.82.75:8888/solr/traffic/select",
+                    //serverURL: "http://172.28.99.70:8983/solr/traffic/select",
+                    serverURL: "http://195.77.82.75:8888/solr/traffic/select",
                     timeField: 'time',
                     label: "Historico Trafico",
                     time: 1000,
